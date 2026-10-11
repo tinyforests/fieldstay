@@ -263,7 +263,7 @@
   <script>
     window.STAYSITE = {
       bookingUrl: "#booking",
-      contactEmail: "hello@gardenerandson.com.au",
+      contactEmail: "hello@gardenerandson.com",
       studioUrl: "https://www.gardenerandson.com",
       mapUrl: "https://maps.app.goo.gl/XJADa72GGWcQmXw47"
     };
@@ -721,7 +721,7 @@
     });
 
     const cfg = window.STAYSITE || {};
-    const mailto = `mailto:${cfg.contactEmail || "hello@gardenerandson.com.au"}`;
+    const mailto = `mailto:${cfg.contactEmail || "hello@gardenerandson.com"}`;
 
     const setHref = (id, href) => {
       const el = document.getElementById(id);
